@@ -375,10 +375,11 @@ display: none;
   }
 
   .btn-box a {
-    width: 90%;
+    width: 30%!important;
+    height: 10vh!important;
     text-align: center;
-    padding: 20px!important;  
-    margin: 2px auto; 
+    padding: 30px!important;  
+    margin: 10px auto; 
   }
 
   .mcontainer {
