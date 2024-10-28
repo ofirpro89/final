@@ -411,3 +411,34 @@ display: none;
   display: none;
 }
 }
+
+
+@media (max-width: 320px) {
+  .phone-imge1 {
+    height: 50vh; /* התאמת גובה */
+  }
+  
+  .mobile-image > a {
+    font-size: 14px; /* שינוי גודל הפונט */
+    padding: 8px; /* שינוי ריווח */
+  }
+
+  .firstpart > h1 {
+    padding: 15px; /* הפחתת ריווח */
+    font-size: 20px; /* שינוי גודל הפונט */
+  }
+
+  .btn-box a {
+    width: 90%; /* שינוי רוחב */
+    padding: 8px!important; /* הפחתת ריווח */
+  }
+
+  .mcontainer {
+    padding: 20px; /* הפחתת ריווח */
+  }
+
+  .container > p {
+    font-size: 18px!important; /* שינוי גודל הפונט */
+  }
+}
+
