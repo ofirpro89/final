@@ -341,73 +341,54 @@ font: normal normal bold 24px/24px 'Satisfy';
 .phone-imge1 {
 display: none;
 }
-
 @media (max-width: 780px) {
   .phone-imge1 {
-    display:flex; 
+    display: flex; 
     flex-wrap: wrap; 
     justify-content: center;
     margin: auto;
     gap: 10px;
     width: 100%;
-    height: 80vh;
-  background-image: url(../photo/bg1.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    height: 60vh; /* הקטנתי את הגובה */
+    background-image: url(../photo/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
-}
-@media (max-width: 780px) {
-  
-  .mobile-image > a{
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  background: #f5c80048;
-  margin: auto;
-}
-}
-
-@media (min-width: 780px) {
-  .phone-imge {
-      display: none;
+  .mobile-image > a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background: #f5c80048;
+    margin: auto;
   }
- 
-
-}
-
-@media (max-width: 780px) {
+  
   .lang {
-      display: none;
+    display: none;
   }
-}
 
-@media (max-width: 780px){
-  .firstpart > h1{
-  padding: 50px;
-  direction: ltr;
+  .firstpart > h1 {
+    padding: 20px; /* הקטנתי את הרווח */
+    direction: ltr;
+  }
 
-}
-.btn-box a { width: 30%;
-  text-align: center;
-  padding: 5px!important;
-  margin: 5px;
-}
+  .btn-box a {
+    width: 80%; /* שיניתי לרוחב יותר גדול */
+    text-align: center;
+    padding: 10px!important; /* הגדלתי את הפדינג */
+    margin: 5px auto; /* מרכזתי את הכפתור */
+  }
 
-}
+  .mcontainer {
+    padding: 20px; /* הקטנתי את הפדינג */
+  }
 
-@media (max-width : 780px) {
+  .container > p {
+    font-size: 18px!important; /* הקטנתי את גודל הטקסט */
+  }
 
- .mcontainer {
-  padding: 30px;
-}
-
-.container > p{
-  font-size: 20px!important;
-}
-
-.gallery{
-  display: none;
-}
+  .gallery {
+    display: none;
+  }
 }
