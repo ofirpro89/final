@@ -141,7 +141,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
 }
 .gallery #gallery-t {
   text-align: center;
@@ -151,7 +151,7 @@
 }
 .gallery .gallery-m {
   width: 100%;
-  margin: 500px;
+  margin: 450px;
 }
 .gallery .hover-image {
   position: relative;
@@ -165,7 +165,7 @@
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  
   right: 0;
   padding: 10px 0;
   z-index: 1;
