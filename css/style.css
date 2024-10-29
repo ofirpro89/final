@@ -16,8 +16,6 @@
   background-repeat: no-repeat;
   gap: 5%;
 }
-
-
 .firstpart .topics h1 {
   padding: 40px;
   font-family: "Sofadi One";
@@ -127,7 +125,6 @@
   justify-content: center;
   width: 100%;
 }
-
 
 .phone-imge{
   display: none;
@@ -393,13 +390,9 @@ display: none;
 
 }
 .btn-box a { width: 40%;
-  display:flex;
-  flex-direction: column;          
   text-align: center;
-  padding: 5px!important;
-  margin: 5px;
-  font-size:10px;
-            
+  padding: 10px!important;
+  margin: 10px;
 }
 
 }
