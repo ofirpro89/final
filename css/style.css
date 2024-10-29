@@ -95,6 +95,16 @@
   width: 100%;
 }
 
+@media (max-width: 780px) {
+    .btn-box {
+        flex-direction: column;
+    }
+
+    .btn-box a {
+        width: 100%;
+        margin: 10px 0; 
+    }
+}
 .mcontainer {
   display: flex;
   flex-direction: column;
