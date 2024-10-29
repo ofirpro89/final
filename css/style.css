@@ -342,7 +342,7 @@ font: normal normal bold 24px/24px 'Satisfy';
 display: none;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 780px) {
   .phone-imge1 {
     display:flex; 
     flex-wrap: wrap; 
@@ -358,7 +358,7 @@ display: none;
   }
   
 }
-@media (max-width: 340px) {
+@media (max-width: 780px) {
   
   .mobile-image > a{
   text-decoration: none;
@@ -369,7 +369,7 @@ display: none;
 }
 }
 
-@media (min-width: 340px) {
+@media (min-width: 781px) {
   .phone-imge {
       display: none;
   }
@@ -377,13 +377,13 @@ display: none;
 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 780px) {
   .lang {
       display: none;
   }
 }
 
-@media (max-width: 340px){
+@media (max-width: 780px){
   .firstpart > h1{
   padding: 25px;
   direction: ltr;
@@ -397,7 +397,7 @@ display: none;
 
 }
 
-@media (max-width : 340px) {
+@media (max-width : 780px) {
 
  .mcontainer {
   padding: 30px;
