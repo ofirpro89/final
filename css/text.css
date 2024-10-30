@@ -341,13 +341,13 @@ bottom:  0;
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: auto;
+        height: 50%;
         padding: 10px;
         position: relative;
     }
 
     .photo {
-        width: 40%; 
+        width: 50%; 
         height: auto;
         background-image: url(../photo/text.png);
         background-repeat: no-repeat;
@@ -356,7 +356,7 @@ bottom:  0;
 
     .datta {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
         width: 60%; 
         text-align: center;
         gap: 5px;
@@ -376,7 +376,7 @@ bottom:  0;
 
     .input-group {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
         margin: 5px; 
     }
 
