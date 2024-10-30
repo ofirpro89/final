@@ -411,30 +411,7 @@ bottom:  0;
         color: #000000;
     }
 
-    .footer {
-        display: none!important;
-      
-    }
-
-    .icons {
-     
-        display: none!important;
-      
-    }
-
-    .bground, .bground-n, .bground-f, .bground-p, .bground-in {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%; 
-        background: orange;
-        position: relative;
-    }
-
-    .foot {
-     display: none!important;
-    }
-
-    .phone {
-        display: block; 
+    .icon, .bground, .bground-n, .bground-f, .bground-p, .bground-in {
+        display: none;
     }
 }
