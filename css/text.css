@@ -412,17 +412,14 @@ bottom:  0;
     }
 
     .footer {
-        display: flex;
-        flex-direction: row; 
-        position: relative;
+        display: none!important;
+      
     }
 
     .icons {
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: row; 
-        gap: 10%!important;
+     
+        display: none!important;
+      
     }
 
     .bground, .bground-n, .bground-f, .bground-p, .bground-in {
@@ -434,9 +431,7 @@ bottom:  0;
     }
 
     .foot {
-        width: 100%;
-        height: 18px;
-        background: #FDBD03;
+     display: none!important;
     }
 
     .phone {
