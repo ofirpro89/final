@@ -307,8 +307,6 @@ bottom:  0;
         }
     }
         
-
-
 @media (max-width: 480px) {
     * {
         margin: 0;
@@ -341,27 +339,25 @@ bottom:  0;
 
     .text-field {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 10px;
         position: relative;
     }
 
     .photo {
-        width: 100%;
-        height: 30vh;
+        width: 40%; 
+        height: auto;
         background-image: url(../photo/text.png);
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
     }
 
     .datta {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
+        flex-direction: column; 
+        width: 60%; 
         text-align: center;
         gap: 5px;
     }
@@ -376,12 +372,6 @@ bottom:  0;
         margin: 10px;
         font: normal normal normal 16px/20px 'Heebo';
         color: #020253;
-    }
-
-    .tofes-r {
-        display: flex;
-        flex-direction: column; 
-        justify-content: center; 
     }
 
     .input-group {
@@ -423,7 +413,7 @@ bottom:  0;
 
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row; 
         position: relative;
     }
 
@@ -431,7 +421,7 @@ bottom:  0;
         height: auto;
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row; 
         gap: 5%;
     }
 
@@ -441,7 +431,6 @@ bottom:  0;
         border-radius: 50%; 
         background: orange;
         position: relative;
-        top: 0; 
     }
 
     .foot {
