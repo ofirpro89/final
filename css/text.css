@@ -411,7 +411,7 @@ bottom:  0;
         color: #000000;
     }
 
-    .icon, .bground, .bground-n, .bground-f, .bground-p, .bground-in {
+    .foot, .footer, .icons {
         display: none;
     }
 }
