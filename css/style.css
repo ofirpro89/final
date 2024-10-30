@@ -40,7 +40,7 @@
   
     .firstpart .topics h1 {
         padding: 10px!important;
-        font-size: 5px!important;
+        font-size: 20px!important;
     
         
     }
@@ -60,7 +60,7 @@
   
     .firstpart .topics h2 {
         padding: 2px!important;
-        font-size: 2px!important;
+        font-size: 10px!important;
         text-shadow: 2px 2px black;
         
     }
@@ -79,7 +79,7 @@
   
     .firstpart .topics h3 {
        margin:5px 5px;
-        font-size: 2px!important;
+        font-size: 5px!important;
 
         
     }
@@ -157,6 +157,7 @@
     .btn-box {
       display:flex;
       flex-direction: column!important;
+        width: 60%!important;
     }
 
     .btn-box a {
@@ -214,7 +215,8 @@
 
   @media (max-width: 380px) {
     .mcontainer .container img{
-       height: 2vh !important;
+       height: 10vh !important;
+         border-radius: 30%!important;
     }
     .mcontainer .container p{
         font-size: 10px!important;
