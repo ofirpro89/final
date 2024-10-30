@@ -214,8 +214,7 @@
 
   @media (max-width: 412px) {
     .mcontainer .container img{
-       height: 10vh !important;
-       width: 100%;
+       height: 5vh !important;
     }
     .mcontainer .container p{
         font-size: 10px!important;
