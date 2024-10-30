@@ -314,13 +314,31 @@ bottom:  0;
 
 
 @media (max-width: 430px) {
-    .icon{
-       
-        position: absolute;
-        top: 0!important;
-        
+ .icon{
 
-    }
+
+    width: 70px!important;
+    height: 100px!important;
+    border-radius: 100%;
+    top:0;
+    left:0; 
+    display: flex;
+    
+}
+
+    
+.bground{
+    width: 70px!important;
+    height: 100px!important;
+    border-radius: 100%; 
+    background: orange;
+    position: relative;
+    left:0!important; 
+    top:0!important; 
+    display: flex;
+    
+}
+    
     .top {
         height: 5px!important; 
     }
