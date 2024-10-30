@@ -412,6 +412,6 @@ bottom:  0;
     }
 
     .foot, .footer, .icons {
-        display: none;
+        display: none!important;
     }
 }
